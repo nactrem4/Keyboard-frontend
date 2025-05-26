@@ -9,11 +9,6 @@ const router = createRouter({
       name: 'home',
       component: HomeView,
     },
-    {
-      path: '/keyboard',
-      name: 'Keyboard',
-      component: () => import('../views/KeyboardView.vue'),
-    },
   ],
 })
 
