@@ -31,7 +31,7 @@ export default {
   },
   mounted() {
     const baseUrl = import.meta.env.VITE_BACKEND_BASE_URL
-    const endpoint = baseUrl + /tastaturen
+    const endpoint = baseUrl + '/tastaturen';
     const requestOptions = {
       method: 'GET',
       redirect: 'follow'
