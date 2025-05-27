@@ -8,14 +8,13 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: HomeView,
+      component: HomeView
     },
     {
-      path: '/tastatur',
-      name: 'Tastatur',
-      component: TastaturenView,
+      path: '/tastaturen',
+      name: 'Tastaturen',
+      component: TastaturenView
     },
-  ],
+  ]
 })
-
 export default router
