@@ -9,6 +9,7 @@
     "preview": "vite preview",
     "build-only": "vite build",
     "type-check": "vue-tsc --build",
+    "test:unit": "vue-cli-service test:unit",
     "format": "prettier --write src/"
   },
   "dependencies": {
